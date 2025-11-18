@@ -17,7 +17,7 @@ read -p "Enter your marks : " marks
 if [[ marks -gt 80 ]]:wq
 
 then
-        echo "YFirst Division"
+        echo "First Division"
 
 else
         echo "You are Fail !!!"
