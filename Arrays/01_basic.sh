@@ -15,3 +15,18 @@ echo "Number of values in array is : ${#myArray[*]}"
 echo "Values form idx 2 to 3 are : ${myArray[*]:2:2}"      # :2:2 -> 1st :2 is strt index and 2nd :2 is number of elemnts(values) from start index
 
 
+# Updating out array with new values 
+
+myArray+=(30 40)
+
+echo "Values of new Array are : ${myArray[*]}" 
+
+
+
+
+
+
+
+
+
+
