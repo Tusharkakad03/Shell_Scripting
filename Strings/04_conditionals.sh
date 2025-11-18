@@ -14,11 +14,15 @@ fi
 
 read -p "Enter your marks : " marks
 
-if [[ marks -gt 80 ]]:wq
-
+if [[ marks -ge 80 ]]
 then
         echo "First Division"
-
+elif [[ marks -ge 60 ]]
+then
+	echo "Second division"
+elif [[ marks -ge 40 ]]
+then
+	echo "Third division"
 else
         echo "You are Fail !!!"
 fi
